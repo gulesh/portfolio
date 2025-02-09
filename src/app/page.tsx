@@ -1,8 +1,17 @@
 import Image from "next/image";
+import Navbar from "@components/NavBar";
+import Mainbody from "@components/MainBody";
+import Text from "./Text";
 
 export default function Home() {
   return (
-	   <h1> Hello World! </h1>
+	  <div>
+		   <Navbar />
+		   <Mainbody />
+		   <Text />
+		  
+	   </div>
+
   
   );
 }
